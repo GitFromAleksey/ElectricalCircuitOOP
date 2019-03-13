@@ -9,6 +9,8 @@
 #include <vector>
 #include <algorithm>
 
+#include "engine.hpp"
+
 using namespace std;
 
 
@@ -183,6 +185,8 @@ int main()
 
     conRes1->PrintAllConnections();
     conRes2->PrintAllConnections();
+
+    Engine en;
 
     cout << "\nEnd program.." << endl;
 }
